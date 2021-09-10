@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+body {
+  font-family: "Alfa Slab One", sans-serif;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  background: hsla(0, 1%, 17%, 0.4);
+  text-align: center;
+  box-shadow: 10px -10px 10px #2ecc71;
+  border-radius: 10px;
+}
+
+.box h1 {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid hsl(204, 98%, 70%);
+  padding: 15px 30px;
+  width: 350px;
+  outline: none;
+  color: #fff;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: #fff;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: #2ecc71;
+}
+
+.links-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-container i{
+    color: #fff;
+    font-size: 30px;
+}
+
+.links-container i:hover{
+    color:rgb(0, 153, 255)
+}
